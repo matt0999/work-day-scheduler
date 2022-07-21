@@ -32,14 +32,18 @@ body {
   
   .row {
     white-space: pre-wrap;
-    height: 80px;
-    border-top: 1px solid white;;
+    height: 100px;
+    
   }
   
   .hour {
     background-color: #ffffff;
     color: #000000;
     border-top: 1px dashed #000000;
+    border-left: 1px dashed #000000;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    
   }
   
   .past {
@@ -56,6 +60,17 @@ body {
     background-color: #77dd77;
     color: white;
   }
+
+  #saveImg{
+    width: 60px;
+    display: flex;
+    align-content: center;
+    
+  }
+
+  #button{
+    background-color: transparent;
+  }
   
   .saveBtn {
     border-left: 1px solid black;
@@ -68,4 +83,10 @@ body {
   .saveBtn i:hover {
     font-size: 20px;
     transition: all .3s ease-in-out;
+  }
+
+  li{
+    list-style: none;
+    text-align: center;
+    font-size: 30px;
   }
